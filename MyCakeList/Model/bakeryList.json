@@ -1,0 +1,122 @@
+[
+    {
+      "id": 1,
+      "imageName": "Le-Castella",
+      "name": "Le Castella",
+      "address": "115 Phan Xich Long, Phu Nhuan District",
+      "price": "$$$",
+      "description": "Là thương hiệu bánh ngọt - bánh bông lan ngon ở Sài Gòn có xuất xứ từ Đài Loan - một trong những lò làm bánh ngọt ngon nhất trên thế giới, Le Castella khi ra mắt tại Việt Nam nhanh chóng chiếm được cảm tình của các bạn trẻ yêu thích bánh ngọt. Hiện tại Le Castella đã có 5 chi nhánh tại Sài Gòn, bạn có thể đến thưởng thức hương vị ngọt ngào của các loại bánh bông lan, bánh ngọt nức tiếng ở đây.",
+      "coordinates": {
+          "latitude": 10.798638539269241,
+          "longitude": 106.68778919654545
+      }
+    },
+    {
+      "id": 2,
+      "imageName": "Pacey-Cupcakes",
+      "name": "Pacey Cupcakes",
+      "address": "14 Dang Dung, District 1",
+      "price": "$$",
+      "description": "Mỗi khi thèm cupcake nhiều bạn nhớ đến Pacey đầu tiên, chất lượng bánh của Pacey khỏi bàn cãi nhiều rồi. Không gian quán nhỏ nhỏ xinh xinh có view ngồi ngắm đường phố bao đẹp, lại còn yên tĩnh nữa thích hợp cho các bạn muốn tìm góc bình yên.",
+      "coordinates": {
+          "latitude": 10.79292513856709,
+          "longitude": 106.69110278139506
+      }
+    },
+    {
+      "id": 3,
+      "imageName": "The-1985",
+      "name": "The 1985",
+      "address": "200 To Hien Thanh, District 10",
+      "price": "$$",
+      "description": "Cái tên quá quen thuộc với team hảo ngọt thường xuyên lui tới vì kết vị ngọt bùi và mùi bánh thơm với bánh ở đây thay đổi theo mùa. Mỗi mùa đều mang lại sự bất ngờ cho ra mắt nhiều loại bánh độc đáo hấp dẫn. Gía các loại bánh ở đây cũng không chát lắm. Bên cạnh đó The 1985 còn được biết đến là 1 trong những quán có không gian đẹp luôn được các bạn trẻ check in liên tục.",
+      "coordinates": {
+          "latitude": 10.779626257201254,
+          "longitude": 106.6674914309648
+      }
+    },
+    {
+      "id": 4,
+      "imageName": "Dallas-Cakes",
+      "name": "Dallas Cakes & Coffe",
+      "address": "6 Quang Trung, Go Vap District",
+      "price": "$-$$$",
+      "description": "Bánh ở đây rất phù hợp với khẩu vị của mỗi người, kem bánh làm không ngọt ăn không ngán. Bánh size nhỏ thì tầm từ 15.000đ - 35.000đ. Bánh được trang trí cute lắm nhìn muốn ăn liền. Còn mua bánh size lớn bạn có tể ăn thử trước hết, thích vị nào thì mua vị đó chứ không phải chỉ vào tiệm nhìn bánh nào đẹp đẹp rồi chọn đâu nha.",
+      "coordinates": {
+          "latitude": 10.827135451667537,
+          "longitude": 106.6786701690032
+      }
+    },
+    {
+      "id": 5,
+      "imageName": "Partea-English-Tearoom",
+      "name": "Partea English Tearoom",
+      "address": "4th floor, 42 Nguyen Hue, Ben Nge, District 1",
+      "price": "$$$",
+      "description": "Partea English Tearoom cái tên chẳng còn gì xa lạ với bao người, sở hữu thiết kế đậm chất bánh bèo lại còn có view nhìn ra phố đi bộ rất đẹp nữa nên dễ dàng khiến các cô nàng phát cuồng. Chất lượng trà và bánh ở đây được các user nhận xét khá ngon, giá có hơi sang sang 1 tẹo nhưng nằm trong khu đắt đỏ quận 1 thì giá như vậy chấp nhận được.",
+      "coordinates": {
+          "latitude": 10.774126697869034,
+          "longitude": 106.70423908988957
+      }
+    },
+    {
+      "id": 6,
+      "imageName": "Star-Kitchen",
+      "name": "The Cafe - Star Kitchen",
+      "address": "11C2 Thai Van Lung, Ben Nghe, District 1",
+      "price": "$$",
+      "description": "Lạc bước vô thiên đường bánh ngọt này nên thử những dòng bánh Sakura hoặc bánh crepe trái cây có nhiều lớp rất hấp dẫn với vỏ bánh mềm trái cây tươi. Hoặc nếu đi 2,3 người có thể gọi combo 10 bánh ăn đa dạng, nếm được nhiều loại bánh không sợ ngán.",
+      "coordinates": {
+          "latitude": 10.779244227280532,
+          "longitude": 106.70521623637546
+      }
+    },
+    {
+      "id": 7,
+      "imageName": "Fly-Cupcake",
+      "name": "Fly Cupcake",
+      "address": "12 Phan Ke Binh, Da Kao, District 1",
+      "price": "$$$",
+      "description": "Nổi bật với thực đơn đa dạng nhiều loại bánh được trang trí độc đáo dễ thương, măm măm những chiếc bánh ngon ở nơi yên tĩnh với những tiếng nhạc du dương êm ái.. quá tuyệt vời luôn ý. Giá tầm 50.000đ trở lên, bạn nào ko hảo ngọt thì nhớ chọn bánh hoặc nước có vị chua để đỡ ngán nha.",
+      "coordinates": {
+          "latitude": 10.79050250084256,
+          "longitude": 106.69888926125522
+      }
+    },
+    {
+      "id": 8,
+      "imageName": "Bia-Bo",
+      "name": "Bia Bơ - Cafe & Bánh Ngọt",
+      "address": "174 Dien Bien Phu, Binh Thanh District",
+      "price": "$",
+      "description": "Nhiều người bồ kết món Apple Pie vì bánh vừa nóng vừa giòn còn thơm mùi quế hoặc bánh Peach Cheesecake ăn bùi bùi. Không gian trong quán nhỏ nhưng được bài trí rất xinh xắn, thích hợp để chụp vài kiểu thả thích đấy hehe.",
+      "coordinates": {
+          "latitude": 10.797270532110534,
+          "longitude": 106.70513657386549
+      }
+    },
+    {
+      "id": 9,
+      "imageName": "Paris-Baguette",
+      "name": "Paris Baguette",
+      "address": "1 Cao Thang, District 3",
+      "price": "$$$$",
+      "description": "Paris Baguette là tiệm bánh theo phong cách Pháp. Những chiếc bánh có vỏ bánh giòn tan, với hàng trăm lớp bánh mỏng xếp chồng lên nhau rất cầu kỳ. Bánh mì bên trong mềm, có thêm nhân kem sữa đặc béo béo đúng kiểu Pháp. Bánh ở đây khá đa dạng cho bạn lựa chọn như: bánh cá phô mai, pudding, bánh gấu, bánh kem, bánh cheese cake,... Khi mua bánh ở đây, bạn không lo sợ bánh làm sẵn sẽ nguội vì sau khi tính tiền, bánh sẽ được cho vào lò hâm lại cho nóng. Khi ăn tại quán còn có nhiều loại nước uống cho bạn lựa chọn nữa.",
+      "coordinates": {
+          "latitude": 10.768187955570376,
+          "longitude": 106.68413190379789
+      }
+    },
+    {
+      "id": 10,
+      "imageName": "Le-Petit",
+      "name": "Le Petit Bake & Cake",
+      "address": "33 Mac Thi Buoi, District 1",
+      "price": "$$$$",
+      "description": "Le Petit Bake&Cake – một tiệm bánh ngọt đang nhận được rất nhiều tình cảm của cộng đồng mê bánh. Bếp trưởng bếp bánh nhà Le Petit được đào tạo chuẩn Pháp cùng nhiều năm kinh nghiệm cũng như đã thiết lập bếp bánh tại các nhà hàng tiệm bánh cao cấp tại Sài Thành, đã và đang cố gắng hết sức để đưa tiêu chuẩn bánh 5 sao đến gần với khách hàng hơn. Chính vì hoài bão to lớn này, Le Petit chỉ chọn những nguyên liệu nhập khẩu thật sự xuất sắc, kết hợp cùng các loại trái cây Việt tươi ngon nhất để từng chiếc bánh ra mắt thật sự là một kiệt tác",
+      "coordinates": {
+          "latitude": 10.775430972154933,
+          "longitude": 106.70588962453145
+      }
+    }
+]

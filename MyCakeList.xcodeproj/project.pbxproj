@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5F0103228A5DD8300F10F1E /* MyCakeListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F0103128A5DD8300F10F1E /* MyCakeListApp.swift */; };
+		F5F0103428A5DD8300F10F1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F0103328A5DD8300F10F1E /* ContentView.swift */; };
+		F5F0103628A5DD8500F10F1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5F0103528A5DD8500F10F1E /* Assets.xcassets */; };
+		F5F0103928A5DD8500F10F1E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5F0103828A5DD8500F10F1E /* Preview Assets.xcassets */; };
+		F5F0104228A5DE7D00F10F1E /* bakeryList.json in Resources */ = {isa = PBXBuildFile; fileRef = F5F0104128A5DE7D00F10F1E /* bakeryList.json */; };
+		F5F0104428A5E3EB00F10F1E /* BakeryInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F0104328A5E3EB00F10F1E /* BakeryInfo.swift */; };
+		F5F0104628A5E56B00F10F1E /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F0104528A5E56B00F10F1E /* ModelData.swift */; };
+		F5F0104828A5E66600F10F1E /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F0104728A5E66600F10F1E /* CircleImage.swift */; };
+		F5F0104A28A5E7C700F10F1E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F0104928A5E7C700F10F1E /* MapView.swift */; };
+		F5F0104C28A5EDE900F10F1E /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F0104B28A5EDE900F10F1E /* InfoView.swift */; };
+		F5F0105028A5F90200F10F1E /* BakeryCardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F0104F28A5F90200F10F1E /* BakeryCardInfo.swift */; };
+		F5F0105228A5FEDE00F10F1E /* BakeriesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F0105128A5FEDE00F10F1E /* BakeriesList.swift */; };
+		F5F0105428A5FFA100F10F1E /* BakeryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F0105328A5FFA100F10F1E /* BakeryRow.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F5F0102E28A5DD8300F10F1E /* MyCakeList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCakeList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5F0103128A5DD8300F10F1E /* MyCakeListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCakeListApp.swift; sourceTree = "<group>"; };
+		F5F0103328A5DD8300F10F1E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F5F0103528A5DD8500F10F1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5F0103828A5DD8500F10F1E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F5F0104128A5DE7D00F10F1E /* bakeryList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bakeryList.json; sourceTree = "<group>"; };
+		F5F0104328A5E3EB00F10F1E /* BakeryInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BakeryInfo.swift; sourceTree = "<group>"; };
+		F5F0104528A5E56B00F10F1E /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		F5F0104728A5E66600F10F1E /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		F5F0104928A5E7C700F10F1E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		F5F0104B28A5EDE900F10F1E /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		F5F0104F28A5F90200F10F1E /* BakeryCardInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BakeryCardInfo.swift; sourceTree = "<group>"; };
+		F5F0105128A5FEDE00F10F1E /* BakeriesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BakeriesList.swift; sourceTree = "<group>"; };
+		F5F0105328A5FFA100F10F1E /* BakeryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BakeryRow.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5F0102B28A5DD8300F10F1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5F0102528A5DD8300F10F1E = {
+			isa = PBXGroup;
+			children = (
+				F5F0103028A5DD8300F10F1E /* MyCakeList */,
+				F5F0102F28A5DD8300F10F1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5F0102F28A5DD8300F10F1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5F0102E28A5DD8300F10F1E /* MyCakeList.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5F0103028A5DD8300F10F1E /* MyCakeList */ = {
+			isa = PBXGroup;
+			children = (
+				F5F0103128A5DD8300F10F1E /* MyCakeListApp.swift */,
+				F5F0103F28A5DDA000F10F1E /* Views */,
+				F5F0104028A5DDBA00F10F1E /* Model */,
+				F5F0103528A5DD8500F10F1E /* Assets.xcassets */,
+				F5F0103728A5DD8500F10F1E /* Preview Content */,
+			);
+			path = MyCakeList;
+			sourceTree = "<group>";
+		};
+		F5F0103728A5DD8500F10F1E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F5F0103828A5DD8500F10F1E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F5F0103F28A5DDA000F10F1E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F5F0103328A5DD8300F10F1E /* ContentView.swift */,
+				F5F0104728A5E66600F10F1E /* CircleImage.swift */,
+				F5F0104928A5E7C700F10F1E /* MapView.swift */,
+				F5F0104B28A5EDE900F10F1E /* InfoView.swift */,
+				F5F0104F28A5F90200F10F1E /* BakeryCardInfo.swift */,
+				F5F0105128A5FEDE00F10F1E /* BakeriesList.swift */,
+				F5F0105328A5FFA100F10F1E /* BakeryRow.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F5F0104028A5DDBA00F10F1E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F5F0104128A5DE7D00F10F1E /* bakeryList.json */,
+				F5F0104328A5E3EB00F10F1E /* BakeryInfo.swift */,
+				F5F0104528A5E56B00F10F1E /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5F0102D28A5DD8300F10F1E /* MyCakeList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5F0103C28A5DD8500F10F1E /* Build configuration list for PBXNativeTarget "MyCakeList" */;
+			buildPhases = (
+				F5F0102A28A5DD8300F10F1E /* Sources */,
+				F5F0102B28A5DD8300F10F1E /* Frameworks */,
+				F5F0102C28A5DD8300F10F1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyCakeList;
+			productName = MyCakeList;
+			productReference = F5F0102E28A5DD8300F10F1E /* MyCakeList.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5F0102628A5DD8300F10F1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					F5F0102D28A5DD8300F10F1E = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F5F0102928A5DD8300F10F1E /* Build configuration list for PBXProject "MyCakeList" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5F0102528A5DD8300F10F1E;
+			productRefGroup = F5F0102F28A5DD8300F10F1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5F0102D28A5DD8300F10F1E /* MyCakeList */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5F0102C28A5DD8300F10F1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5F0103928A5DD8500F10F1E /* Preview Assets.xcassets in Resources */,
+				F5F0103628A5DD8500F10F1E /* Assets.xcassets in Resources */,
+				F5F0104228A5DE7D00F10F1E /* bakeryList.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5F0102A28A5DD8300F10F1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5F0103428A5DD8300F10F1E /* ContentView.swift in Sources */,
+				F5F0104A28A5E7C700F10F1E /* MapView.swift in Sources */,
+				F5F0105228A5FEDE00F10F1E /* BakeriesList.swift in Sources */,
+				F5F0104628A5E56B00F10F1E /* ModelData.swift in Sources */,
+				F5F0105428A5FFA100F10F1E /* BakeryRow.swift in Sources */,
+				F5F0105028A5F90200F10F1E /* BakeryCardInfo.swift in Sources */,
+				F5F0103228A5DD8300F10F1E /* MyCakeListApp.swift in Sources */,
+				F5F0104428A5E3EB00F10F1E /* BakeryInfo.swift in Sources */,
+				F5F0104828A5E66600F10F1E /* CircleImage.swift in Sources */,
+				F5F0104C28A5EDE900F10F1E /* InfoView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F5F0103A28A5DD8500F10F1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5F0103B28A5DD8500F10F1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5F0103D28A5DD8500F10F1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyCakeList/Preview Content\"";
+				DEVELOPMENT_TEAM = Q22N32SHV8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HLTStudio.MyCakeList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5F0103E28A5DD8500F10F1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyCakeList/Preview Content\"";
+				DEVELOPMENT_TEAM = Q22N32SHV8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HLTStudio.MyCakeList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5F0102928A5DD8300F10F1E /* Build configuration list for PBXProject "MyCakeList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5F0103A28A5DD8500F10F1E /* Debug */,
+				F5F0103B28A5DD8500F10F1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5F0103C28A5DD8500F10F1E /* Build configuration list for PBXNativeTarget "MyCakeList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5F0103D28A5DD8500F10F1E /* Debug */,
+				F5F0103E28A5DD8500F10F1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5F0102628A5DD8300F10F1E /* Project object */;
+}
